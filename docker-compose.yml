@@ -1,0 +1,20 @@
+version: "3.8"
+services:
+  influxdb:
+    image: influxdb:latest
+    ports:
+      - "8086:8086"
+  k6:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - "./scripts:/app/scripts"
+    environment:
+      - K6_INFLUXDB_DB=k6
+      - K6_INFLUXDB_HOST=influxdb
+      - K6_INFLUXDB_PORT=8086
+      - K6_INFLUXDB_USERNAME=root
+      - K6_INFLUXDB_PASSWORD=root
+    depends_on:
+      - influxdb

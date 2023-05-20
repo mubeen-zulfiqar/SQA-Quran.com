@@ -1,0 +1,27 @@
+test_audio_player.py::test_end_point PASSED
+test_audio_player.py::test_audio_by_chapter PASSED
+test_audio_player.py::test_audio_by_verse PASSED
+test_chapters.py::test_end_point PASSED
+test_chapters.py::test_chapters_present PASSED
+test_chapters.py::test_get_chapter_by_id PASSED
+test_chapters.py::test_get_chapter_info__by_id PASSED
+test_juz.py::test_end_point PASSED
+test_juz.py::test_juzs_present PASSED
+test_search.py::test_end_point PASSED
+test_search.py::test_search_by_word PASSED
+test_verses.py::test_end_point PASSED
+test_verses.py::test_get_verses_by_chapter[0-] PASSED
+test_verses.py::test_get_verses_by_chapter[1-1:1] PASSED
+test_verses.py::test_get_verses_by_chapter[2-2:1] PASSED
+test_verses.py::test_get_verses_by_chapter[113-113:1] PASSED
+test_verses.py::test_get_verses_by_chapter[114-114:1] PASSED
+test_verses.py::test_get_verses_by_chapter[115-] PASSED
+test_verses.py::test_get_verses_by_page PASSED
+test_verses.py::test_get_verses_by_juz[0-] PASSED
+test_verses.py::test_get_verses_by_juz[1-1:1] PASSED
+test_verses.py::test_get_verses_by_juz[2-2:142] PASSED
+test_verses.py::test_get_verses_by_juz[29-67:1] PASSED
+test_verses.py::test_get_verses_by_juz[30-78:1] PASSED
+test_verses.py::test_get_verses_by_juz[31-] PASSED
+
+================================================== 25 passed in 16.14s =================================================== 
